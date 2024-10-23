@@ -2,6 +2,7 @@
 import { render } from "@testing-library/react";
 import CustomButton from "../Button/Button";
 import '@testing-library/jest-dom';
+import React from "react";
 
 describe("CustomButton", () => {
   it("renders a button with the correct label", () => {
