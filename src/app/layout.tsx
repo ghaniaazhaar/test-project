@@ -4,10 +4,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import localFont from "next/font/local";
 import theme from "../theme"; 
 import "./globals.css";
+import React from "react";
 
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
