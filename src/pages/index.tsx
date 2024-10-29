@@ -1,13 +1,14 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import CustomButton from "../components/Button/Button";
+import React from "react";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <main>
-        <h1>Welcome to My Next.js App</h1>
+        <h1>Welcome to My Next.js App.</h1>
         <CustomButton label="Click Me" />
       </main>
       <Footer />
