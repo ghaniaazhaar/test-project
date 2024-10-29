@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <main>
-        <h1>Welcome to My Next.js App</h1>
+        <h1>Welcome to My Next.js App.</h1>
         <CustomButton label="Click Me" />
       </main>
       <Footer />
